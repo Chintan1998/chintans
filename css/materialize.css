@@ -4823,7 +4823,7 @@ small {
   position: absolute;
   bottom: 0;
   height: 2px;
-  background-color: #009688;
+  background-color: #3F51B5;
   will-change: left, right;
 }
 
