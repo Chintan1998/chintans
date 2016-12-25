@@ -11,13 +11,18 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
   <div id="index-banner" class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
           <img src="images/chintan.jpg" alt="It's me." class="circle responsive-img z-depth-2" style="border:5px solid white">
           <br><br>
-          <h1 class="header center white-text text-lighten-2">Hi, I am Chintan.</h1>
+          <h2 class="thin center white-text">Hi there, I am Chintan.</h2>
         </div>
       </div>
     </div>
@@ -25,32 +30,100 @@
   </div>
 
   <div class="container">
-    <div class="card white text-darken-2">
-      <div class="row">
-        <div class="col s12">
-          <ul class="tabs">
-            <li class="tab col s3"><a href="#test1" class="indigo-text">About Me</a></li>
-            <li class="tab col s3"><a href="#test2" class="indigo-text">Education</a></li>
-            <li class="tab col s3"><a href="#test3" class="indigo-text">Projects</a></li>
-            <li class="tab col s3"><a href="#test4" class="indigo-text">Contact</a></li>
-          </ul>
+    <div class="row">
+      <div class="col s12">
+        <ul class="tabs tabs-fixed-width">
+          <li class="tab col s4"><a href="#about" class="indigo-text">About Me</a></li>
+          <li class="tab col s4"><a href="#projects" class="indigo-text">Projects</a></li>
+          <li class="tab col s4 disabled"><a href="#contact" class="indigo-text">Contact (disabled)</a></li>
+        </ul>
+      </div>
+      
+      <!-- About -->
+      <div id="about" style="margin-top: 8px;">
+        <div class="col s12 m5">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title indigo-text"><h4>Who am I?</h4></span>
+              <p class="flow-text">Hey, I'm Chintan! A first year student currently pursuing a HBSc in Computer Science at University of Toronto.</p>
+              <br>
+              <p class="flow-text">Usually in my free time, I'm either coding, watching hockey, eating or just having fun in life!</p>
+              <br>
+              <p class="flow-text">Don't forget to check out my resume to learn more about me!</p>
+            </div>
+            <div class="card-action">
+              <a class="indigo-text" href="ChintanShahResume.pdf">Resume<i class="tiny material-icons indigo-text">open_in_new</i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m7">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title indigo-text"><h4>Education</h4></span>
+              <h5 class="indigo-text">University of Toronto</h5>
+              <h5 class="flow-text indigo-text">Honours Bachelor of Science in Computer Science</h5>
+              <p class="flow-text">Prospective first year student aiming to pursue in the Honors Specialist Software Engineering Computer Science stream</p>
+              <br>
+              <p class="flow-text">Completed courses include: Introduction to Computer Science, Discrete Mathematics and Calculus for Mathematical Sciences</p>
+            </div>
+          </div>
         </div>
       </div>
+
+      <!-- Projects -->
+      <div id="projects" style="margin-top: 8px;">
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/digiloans.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator indigo-text"><h4>RBC DigiLoans<i class="material-icons right">more_vert</i></h4></span>
+              <p>Created at the RBC's Next Great Innovator Hackathon</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title indigo-text">RBC DigiLoans<i class="material-icons right">close</i></span>
+              <p>Developed to improve the loan application process for small businesses</p>
+              <p>Includes an online application that eases the process and shows the status of your application</p>
+              <p>Enables the bank employees to easily verify the client data and approve the loan online</p>
+              <p>Allows for small business owners to easily contact the bank representatives through an online chat as well for inquiries either regarding their application or its status</p>
+            </div>
+            <div class="card-action">
+              <a class="indigo-text" href="https://github.com/chintan1998/DigiLoans">View source code<i class="tiny material-icons indigo-text">open_in_new</i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card medium">
+            <div class="card-content">
+              <h4 class="indigo-text center">Don't fret.</h5> 
+              <div class="center-align">
+                <i class="large material-icons indigo-text">trending_up</i>
+              </div>
+              <h4 class="indigo-text center">There are more projects on there way!</h4>
+            </div>
+            <div class="card-action">
+              <a class="indigo-text" href="https://github.com/chintan1998">View my GitHub<i class="tiny material-icons indigo-text">open_in_new</i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact -->
+      <div id="contact" class="col s12">Outbox (Disabled)</div>
     </div>
   </div>
+  
+  <br>
   
   <!-- Footer -->
   <footer class="page-footer indigo">
     <div class="footer-copyright indigo">
       <div class="container">
-       <span class="indigo text-darken-2">© 2016 Chintan Shah</span>
+       <span class="white-text">© 2016 Chintan Shah</span>
+       <span class="white-text right">Email me at chintans98@gmail.com</span>
       </div>
     </div>
   </footer>
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-
   </body>
 </html>
