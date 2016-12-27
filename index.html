@@ -1,10 +1,12 @@
-<!-- Contact Code (PHP) -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
   <title>Chintan Shah</title>
+
+  <!-- FontAwesome -->
+  <script src="https://use.fontawesome.com/3508fff00e.js"></script>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -15,151 +17,126 @@
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-
-  <div id="index-banner" class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <img src="images/chintan.jpg" alt="It's me." class="circle responsive-img z-depth-2" style="width: 20%; height: 20%; border:5px solid white;">
-          <br><br>
-          <h2 class="thin center white-text">Hi there, I am Chintan.</h2>
+  <main>
+    <div id="index-banner" class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <img src="images/chintan.jpg" alt="It's me." class="circle responsive-img z-depth-2" style="border:5px solid white;">
+            <br><br>
+            <h2 class="thin white-text">Hi there, I am Chintan.</h2>
+          </div>
         </div>
       </div>
+      <div class="parallax indigo"></div>
     </div>
-    <div class="parallax indigo"></div>
-  </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col s12">
-        <ul class="tabs">
-          <li class="tab col s4"><a href="#about" class="indigo-text">About Me</a></li>
-          <li class="tab col s4"><a href="#projects" class="indigo-text">Projects</a></li>
-          <li class="tab col s4"><a href="#contact" class="indigo-text">Contact Me</a></li>
-        </ul>
-      </div>
-      
-      <!-- About -->
-      <div id="about" style="margin-top: 8px;">
-        <div class="col s12 m5">
-          <div class="card">
-            <div class="card-content">
-              <span class="card-title indigo-text"><h4>Who am I?</h4></span>
-              <p class="flow-text">Hey, I'm Chintan! A first year student currently pursuing a HBSc in Computer Science at University of Toronto.</p>
-              <br>
-              <p class="flow-text">Usually in my free time, I'm either coding, watching hockey, eating or just having fun in life!</p>
-              <br>
-              <p class="flow-text">Don't forget to check out my resume to learn more about me!</p>
-            </div>
-            <div class="card-action">
-              <a class="indigo-text" href="ChintanShahResume.pdf">Resume<i class="tiny material-icons indigo-text">open_in_new</i></a>
-            </div>
-          </div>
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <ul class="tabs">
+            <li class="tab col s4"><a href="#about" class="indigo-text">About Me</a></li>
+            <li class="tab col s4"><a href="#projects" class="indigo-text">Projects</a></li>
+            <li class="tab col s4"><a href="#contact" class="indigo-text">Contact Me</a></li>
+          </ul>
         </div>
-        <div class="col s12 m7">
-          <div class="card">
-            <div class="card-content">
-              <span class="card-title indigo-text"><h4>Education</h4></span>
-              <h5 class="indigo-text">University of Toronto</h5>
-              <h5 class="flow-text indigo-text">Honours Bachelor of Science in Computer Science</h5>
-              <p class="flow-text">Prospective first year student aiming to pursue in the Honors Specialist Software Engineering Computer Science stream</p>
-              <br>
-              <p class="flow-text">Completed courses include: Introduction to Computer Science, Discrete Mathematics and Calculus for Mathematical Sciences</p>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <!-- Projects -->
-      <div id="projects" style="margin-top: 8px;">
-        <div class="col s12 m4">
-          <div class="card medium">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="images/digiloans.jpg">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator indigo-text"><h4>RBC DigiLoans<i class="material-icons right">more_vert</i></h4></span>
-              <p>Created at the RBC's Next Great Innovator Hackathon</p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title indigo-text">RBC DigiLoans<i class="material-icons right">close</i></span>
-              <p>Developed to improve the loan application process for small businesses</p>
-              <p>Includes an online application that eases the process and shows the status of your application</p>
-              <p>Enables the bank employees to easily verify the client data and approve the loan online</p>
-              <p>Allows for small business owners to easily contact the bank representatives through an online chat as well for inquiries either regarding their application or its status</p>
-            </div>
-            <div class="card-action">
-              <a class="indigo-text" href="https://github.com/chintan1998/DigiLoans">View source code<i class="tiny material-icons indigo-text">open_in_new</i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="card medium">
-            <div class="card-content">
-              <h4 class="indigo-text center">Don't fret.</h5> 
-              <div class="center-align">
-                <i class="large material-icons indigo-text">trending_up</i>
+        <!-- About -->
+        <div id="about" style="margin-top: 8px;">
+          <div class="col s12 m5">
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title indigo-text"><h4>Who am I?</h4></span>
+                <p class="flow-text">Hey, I'm Chintan! A first year student currently pursuing a HBSc in Computer Science at University of Toronto.</p>
+                <br>
+                <p class="flow-text">Usually in my free time, I'm either coding, watching hockey, eating or just having fun in life!</p>
+                <br>
+                <p class="flow-text">Don't forget to check out my resume to learn more about me!</p>
               </div>
-              <h4 class="indigo-text center">There are more projects on there way!</h4>
+              <div class="card-action">
+                <a class="indigo-text" target="_blank" href="ChintanShahResume.pdf">Resume<i class="tiny material-icons indigo-text">open_in_new</i></a>
+              </div>
             </div>
-            <div class="card-action">
-              <a class="indigo-text" href="https://github.com/chintan1998">View my GitHub<i class="tiny material-icons indigo-text">open_in_new</i></a>
+          </div>
+          <div class="col s12 m7">
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title indigo-text"><h4>Education</h4></span>
+                <h5 class="indigo-text">University of Toronto</h5>
+                <h5 class="flow-text indigo-text">Honours Bachelor of Science in Computer Science</h5>
+                <p class="flow-text">Prospective first year student aiming to pursue in the Honors Specialist Software Engineering Computer Science stream</p>
+                <br>
+                <p class="flow-text">Completed courses include: Introduction to Computer Science, Discrete Mathematics and Calculus for Mathematical Sciences</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- Contact -->
-      <div id="contact" style="margin-top: 8px;">
-        <div class="col s12 m7">
-          <div class="card">
-            <div class="card-content">
-              <span class="card-title indigo-text"><h4>Email Me</h4></span>
-              <div class="row">
-                <form class="col s12">
-                  <div class="row">
-                    <div class="input-field col s6">
-                      <input id="first_name" type="text" class="validate">
-                      <label for="first_name">First Name</label>
-                    </div>
-                    <div class="input-field col s6">
-                      <input id="last_name" type="text" class="validate">
-                      <label for="last_name">Last Name</label>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="input-field col s12">
-                      <input id="email" type="email" class="validate">
-                      <label for="email" data-error="Invalid Email">Email</label>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="input-field col s12">
-                      <textarea id="message" class="materialize-textarea validate"></textarea>
-                      <label for="message">Message</label>
-                    </div>
-                  </div>
-                  <button class="btn waves-effect waves-light indigo" type="submit" name="submit" value="Send">Submit
-                    <i class="material-icons right">send</i>
-                  </button>
-                </form>
+        <!-- Projects -->
+        <div id="projects" style="margin-top: 8px;">
+          <div class="col s12 m4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/digiloans.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator indigo-text"><h4>RBC DigiLoans<i class="material-icons right">more_vert</i></h4></span>
+                <p>Created at the RBC's Next Great Innovator Hackathon</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title indigo-text">RBC DigiLoans<i class="material-icons right">close</i></span>
+                <p>Developed to improve the loan application process for small businesses</p>
+                <p>Includes an online application that eases the process and shows the status of your application</p>
+                <p>Enables the bank employees to easily verify the client data and approve the loan online</p>
+                <p>Allows for small business owners to easily contact the bank representatives through an online chat as well for inquiries either regarding their application or its status</p>
+              </div>
+              <div class="card-action">
+                <a class="indigo-text" target="_blank" href="https://github.com/chintan1998/DigiLoans">View source code<i class="tiny material-icons indigo-text">open_in_new</i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card medium">
+              <div class="card-content">
+                <h4 class="indigo-text center">Don't fret.</h4> 
+                <div class="center-align">
+                  <i class="large material-icons indigo-text">trending_up</i>
+                </div>
+                <h4 class="indigo-text center">There are more projects on there way!</h4>
+              </div>
+              <div class="card-action">
+                <a class="indigo-text" target="_blank" href="https://github.com/chintan1998">View my GitHub<i class="tiny material-icons indigo-text">open_in_new</i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact -->
+        <div id="contact" style="margin-top: 8px;">
+          <div class="col s12 m7">
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title indigo-text"><h4>Get in touch with me!</h4></span>
+                <p class="flow-text">You can always find me on social media or by email that is listed below. Thanks!</p><br>
+                <i class="fa fa-envelope fa-2x indigo-text"></i><a class="flow-text" target="_blank" href="mailto:chintans98@gmail.com"> Email</a><br>
+                <i class="fa fa-github fa-2x indigo-text"></i><a class="flow-text" target="_blank" href="https://github.com/chintan1998"> GitHub</a><br>
+                <i class="fa fa-linkedin fa-2x indigo-text"></i><a class="flow-text" target="_blank" href="https://linkedin.com/in/chintan-shah"> LinkedIn</a><br>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <br>
+    <br>
+  </main>
   <!-- Footer -->
   <footer class="page-footer indigo">
     <div class="footer-copyright indigo">
       <div class="container">
        <span class="white-text">© 2016 Chintan Shah</span>
-       <span class="white-text right">Email me at chintans98@gmail.com</span>
-      </div>
-    </div>
-  </footer>
-  </body>
+       <span class="white-text right">Loving the Material.</span>
+     </div>
+   </div>
+ </footer>
+</body>
 </html>
