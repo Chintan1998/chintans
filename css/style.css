@@ -41,6 +41,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background: #f2f2f2;
 }
 
 main {
@@ -52,4 +53,4 @@ main {
 }
 
 .tabs .indicator {
-  background-color: #3F51B5;
+  background-color: #FF4081;
