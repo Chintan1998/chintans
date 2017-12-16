@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Head -->
 <head>
   <!-- Meta -->
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
-  <meta name="description" content="First year Computer Science student at University of Toronto" />
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="description" content="Third year Computer Science student at University of Toronto" />
   <meta name="keywords" content="Chintan, Shah, Chintan Shah, chintan, chintan shah, shah, chintans98, chintan1998" />
   <meta name="author" content="Chintan Shah">
   <meta name="ROBOTS" content="INDEX, FOLLOW">
@@ -16,7 +15,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
   <link rel="manifest" href="images/favicon/manifest.json">
   <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="theme-color" content="#283593">
+  <meta name="theme-color" content="#2C3E50">
 
   <title>Chintan Shah</title>
 
@@ -31,173 +30,150 @@
   ga('send', 'pageview');
   </script>
 
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
   <!-- FontAwesome -->
-  <script src="https://use.fontawesome.com/3508fff00e.js"></script>
+  <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">  
 
-  <!-- Material Icons -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+  <!-- My CSS -->
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 
 <!-- Body -->
 <body>
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
   <main>
-    <!-- Banner -->
-    <div id="index-banner" class="parallax-container valign-wrapper">
-      <div class="section no-pad-bot">
-        <div class="container">
-          <div class="row center">
-            <img src="images/chintan.jpg" alt="It's me." class="circle responsive-img z-depth-2 hide-on-large-only" style="width:30%; border:1px solid white;">
-            <img src="images/chintan.jpg" alt="It's me." class="circle responsive-img z-depth-2 hide-on-med-and-down" style="border:5px solid white;">
-            <br><br>
-            <h3 class="thin white-text">Hi there, I am Chintan.</h3>
-          </div>
+    <div class="my-container my-row">
+      <!-- Header -->
+      <div id="header" class="col-12 col-lg-3 container">
+        <div class="starter-card card">
+          <div class="intro">
+            <img src="images/chintan.jpg" alt="It's me." class="profile-picture rounded-circle mx-auto d-lg-none d-xl-none">
+            <img src="images/chintan.jpg" alt="It's me." class="profile-picture rounded-circle mx-auto d-none d-lg-block">
+            
+            <h1 class="mx-auto name-intro">Chintan Shah</h1>
+            <h2 class="mx-auto description">Computer Science Student</h2>
+            
+            <hr>
 
-          <div class="row center"><!-- style="padding: 0px; margin: 0px;" -->
-            <div class="col s12">
-              <div class="nav-content">
-                <ul class="tabs">
-                  <li class="tab col s4"><a href="#about" class="indigo-text">About Me</a></li>
-                  <li class="tab col s4"><a href="#projects" class="indigo-text">Projects</a></li>
-                  <li class="tab col s4"><a href="#contact" class="indigo-text">Contact Me</a></li>
-                </ul>
-              </div>
+            <div class="mx-auto feature">
+              <p>Third year Computer Science student at University of Toronto.
+                Check out my resume to learn more about me!</p>
             </div>
           </div>
+
+          <div class="mx-auto card contact-bar">
+            <a href="ChintanShahResume.pdf" alt="Resume" target="_blank"><i class="fas fa-file-alt"></i></a>
+            <a href="https://github.com/chintans1" alt="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/chintan-shah" alt="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:chintans.shah@mail.utoronto.ca" alt="Email"><i class="fas fa-envelope"></i></a>
+          </div>
+          <br>
         </div>
       </div>
-      <div class="parallax indigo"></div>
-    </div>
+    <!-- </div>
 
-    <div class="container">
-      <div class="row">
+    <div class="my-container my-row"> -->
+      <!-- Education -->
+      <div id="education" class="col-12 col-lg-4 container">
+        <div class="card">
+          <h3 class="card-header header-text">EDUCATION</h3>
+          <div class="card-body university-top">
+            <h5 class="university">University of Toronto</h5>
+            <h6 class="university-description">Honours Bachelor of Science</h6>
+            <h6 class="university-description">Computer Science Co-op Specialist, Software Engineering</h6>
+          </div>
+            
+          <hr class="divider">
+          
+          <div class="card-body university-bottom">
+            <h5 class="university">Courses Taken</h5>
 
-        <!-- About -->
-        <div id="about" style="margin-top: 8px;">
-          <!--- About Me Card -->
-          <div class="col s12 m5">
-            <div class="card">
-              <div class="card-content">
-                <span class="card-title indigo-text"><h4>Who am I?</h4></span>
-                <p class="flow-text">Hey, I'm Chintan! A first year student currently pursuing an HBSc in Computer Science at University of Toronto.</p>
-                <br>
-                <p class="flow-text">In my free time, you will usually find me coding, watching hockey, eating or just having fun in life!</p>
-                <br>
-                <p class="flow-text">Don't forget to check out my resume to learn more about me!</p>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-cs" role="tabpanel" aria-labelledby="pills-cs-tab">
+                <p class="university-description"><b>CSCA08:</b> Introduction to Computer Science I</p>
+                <p class="university-description"><b>CSCA48:</b> Introduction to Computer Science II</p>
+                <p class="university-description"><b>CSCA67:</b> Discrete Mathematics</p>
+                <p class="university-description"><b>CSCB07:</b> Software Design</p>
+                <p class="university-description"><b>CSCB09:</b> Software Tools & Systems Programming</p>
+                <p class="university-description"><b>CSCB36:</b> Introduction to the Theory of Computation</p>
+                <p class="university-description"><b>CSCC01:</b> Introduction to Software Engineering</p>
+                <p class="university-description"><b>CSCD27:</b> Computer & Network Security</p>
               </div>
-              <div class="card-action">
-                <a class="indigo-text" target="_blank" href="ChintanShahResume.pdf">Resume<i class="tiny material-icons indigo-text">open_in_new</i></a>
+              
+              <div class="tab-pane fade" id="pills-math" role="tabpanel" aria-labelledby="pills-math-tab">
+                <p class="university-description"><b>MATA31:</b> Calculus I for Mathematical Sciences</p>
+                <p class="university-description"><b>MATA37:</b> Calculus II for Mathematical Sciences</p>
+                <p class="university-description"><b>MATA23:</b> Linear Algebra I</p>
+                <p class="university-description"><b>MATB24:</b> Linear Algebra II</p>
               </div>
             </div>
           </div>
 
-          <!-- Education Card -->
-          <div class="col s12 m7">
-            <div class="card">
-              <div class="card-content">
-                <span class="card-title indigo-text"><h4>Education</h4></span>
-                <h5 class="indigo-text">University of Toronto</h5>
-                <h5 class="flow-text indigo-text">Honours Bachelor of Science in Computer Science</h5>
-                <p class="flow-text">I am a first year Computer Science student aiming to pursue in the Software Engineering specialist stream.</p>
-              </div>
-            </div>
-          </div>
+          <ul class="nav nav-pills courses-nav" id="pills-tab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="pills-cs-tab" data-toggle="pill" href="#pills-cs" role="tab" aria-controls="pills-cs" aria-selected="true">Computer Science</a>
+            </li>
 
-          <!-- Courses Taken Card -->
-          <div class="col s12 m7 right">
-            <div class="card">
-              <div class="card-content">
-                <span class="card-title indigo-text"><h4>Courses Taken</h4></span>
-                <p class="flow-text">CSCA08/CSCA48: Introduction to Computer Science</p>
-                <p class="flow-text">MATA31/MATA37: Calculus for Mathematical Sciences</p>
-                <p class="flow-text">MATA23: Linear Algebra I</p>
-                <p class="flow-text">CSCA67: Discrete Mathematics</p>
-              </div>
-            </div>
-          </div>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-math-tab" data-toggle="pill" href="#pills-math" role="tab" aria-controls="pills-math" aria-selected="false">Mathematics</a>
+            </li>
+          </ul>
+          <br>
         </div>
+      </div>
 
-        <!-- Projects -->
-        <div id="projects" style="margin-top: 8px;">
+      <!-- Projects -->
+      <div id="projects" class="col-12 col-lg-4 container">
+        <div class="card">
+          <h3 class="card-header header-text">PROJECTS</h3>
+
+          <!-- SupplyMe -->
+          <div class="card-body project">
+            <h5 class="project-title">SupplyMe</h5>
+            <h6 class="project-description">An interactive platform for students to lend and borrow school supplies.</h6>
+            <h6 class="project-description-mini">Created at UofTHacks IV</h6>
+
+            <div class="project-info-bar">
+              <a class="project-link-left" href="https://github.com/chintans1/supplyme/blob/master/README.md" target="_blank">Learn more</a>
+              <a class="project-link-right" href="https://github.com/chintans1/supplyme" target="_blank">Source code</a>
+            </div>
+          </div>
+          
           <!-- DigiLoans -->
-          <div class="col s12 m4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="images/digiloans.jpg">
-              </div>
+          <div class="card-body project">
+            <h5 class="project-title">RBC DigiLoans</h5>
+            <h6 class="project-description">A web application built for small-business owners to easily apply for loans.</h6>
+            <h6 class="project-description-mini">Created at the RBC's Next Great Innovator Hackathon</h6>
 
-              <div class="card-content">
-                <span class="card-title activator indigo-text"><h4>RBC DigiLoans<i class="material-icons right">more_vert</i></h4></span>
-                <p>Created at the RBC's Next Great Innovator Hackathon</p>
-              </div>
-
-              <div class="card-reveal">
-                <span class="card-title indigo-text">RBC DigiLoans<i class="material-icons right">close</i></span>
-                <p>Developed to improve the loan application process for small businesses</p>
-                <p>Includes an online application that eases the process and shows the status of your application</p>
-                <p>Enables the bank employees to easily verify the client data and approve the loan online</p>
-                <p>Allows for small business owners to easily contact the bank representatives through an online chat as well for inquiries either regarding their application or its status</p>
-              </div>
-
-              <div class="card-action">
-                <a class="indigo-text" target="_blank" href="https://github.com/chintan1998/DigiLoans">View source code<i class="tiny material-icons indigo-text">open_in_new</i></a>
-              </div>
+            <div class="project-info-bar">
+              <a class="project-link-left" href="https://github.com/chintans1/digiloans/blob/master/README.md" target="_blank">Learn more</a>
+              <a class="project-link-right" href="https://github.com/chintans1/digiloans" target="_blank">Source code</a>
             </div>
           </div>
 
-          <!-- More to Come -->
-          <div class="col s12 m4">
-            <div class="card medium">
-              <div class="card-content">
-                <h4 class="indigo-text center">Don't fret.</h4>
-                <div class="center-align">
-                  <i class="large material-icons indigo-text">trending_up</i>
-                </div>
-                <h4 class="indigo-text center">There are more projects on there way!</h4>
-              </div>
-              <div class="card-action">
-                <a class="indigo-text" target="_blank" href="https://github.com/chintan1998">View my GitHub<i class="tiny material-icons indigo-text">open_in_new</i></a>
-              </div>
-            </div>
-          </div>
-        </div>
+          <!-- More to come -->
+          <div class="card-body project">
+            <h5 class="project-title">Don't fret.</h5>
+            <h6 class="project-description">There are more projects on the way!</h6>
+            <h6 class="project-description">In the meantime, feel free to checkout my GitHub and LinkedIn</h6>
 
-        <!-- Contact -->
-        <div id="contact" style="margin-top: 8px;">
-          <!-- Social Media Card -->
-          <div class="col s12 m7">
-            <div class="card">
-              <div class="card-content">
-                <span class="card-title indigo-text"><h4>Get in touch with me!</h4></span>
-                <p class="flow-text">You can always find me on social media or by email that is listed below. Thanks!</p><br>
-                <i class="fa fa-envelope fa-2x indigo-text"></i><a class="flow-text" target="_blank" href="mailto:chintans98@gmail.com"> Email</a><br>
-                <i class="fa fa-github fa-2x indigo-text"></i><a class="flow-text" target="_blank" href="https://github.com/chintan1998">  GitHub</a><br>
-                <i class="fa fa-linkedin fa-2x indigo-text"></i><a class="flow-text" target="_blank" href="https://linkedin.com/in/chintan-shah"> LinkedIn</a><br>
-              </div>
+            <div class="project-info-bar">
+              <a class="project-link-left" href="https://github.com/chintans1" target="_blank">GitHub</a>
+              <a class="project-link-right" href="https://linkedin.com/in/chintan-shah" target="_blank">LinkedIn</a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </main>
-
-  <!-- Footer -->
-  <footer class="page-footer indigo">
-    <div class="footer-copyright">
-      <div class="container">
-        <span class="white-text">© 2017 Chintan Shah</span>
-        <span class="white-text right">Loving the Material.</span>
-      </div>
-    </div>
-  </footer>
 </body>
 </html>
